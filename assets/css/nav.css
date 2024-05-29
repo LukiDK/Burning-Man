@@ -1,0 +1,46 @@
+:root {
+  --beach: #fbf7ea;
+  --brown: #6c5d4d;
+  --orange: #d6762d;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  padding: 4rem 2rem;
+  background-color: var(--beach);
+}
+
+nav ul {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li:nth-child(1) {
+  margin-right: auto;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--brown);
+  font-size: 1.6rem;
+}
