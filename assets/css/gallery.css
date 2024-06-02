@@ -1,0 +1,38 @@
+@import url(/assets/css/nav.css);
+@import url(/assets/css/styles.css);
+
+.gallery {
+  background-color: var(--brown);
+  padding: 5rem 2rem;
+}
+
+.gallery .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 1080px;
+  width: 100%;
+}
+
+.gallery-item {
+  flex: 1 1 calc(33.333% - 2rem); /* 3 items per row with some spacing */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.gallery-item img {
+  margin-bottom: 1rem;
+}
+
+.gallery-item p {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--beach);
+  margin-bottom: 1rem;
+}
+
+.gallery-item a {
+  text-decoration: none;
+  color: var(--orange);
+  margin-bottom: 1rem;
+}
