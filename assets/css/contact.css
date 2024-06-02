@@ -1,0 +1,43 @@
+@import url(/assets/css/nav.css);
+@import url(/assets/css/styles.css);
+
+body {
+  background-color: var(--brown);
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 10rem 2rem;
+}
+
+.contact .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact .btns {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.contact .btns li {
+  list-style: none;
+}
+
+.contact .btns a {
+  display: inline-block;
+  padding: 2.5rem;
+  background-color: var(--beach);
+  color: var(--brown);
+  border-radius: 4.6rem;
+  text-decoration: none;
+  font-size: 4rem;
+  font-weight: 800;
+  width: 400px;
+  text-align: center;
+}

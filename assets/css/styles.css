@@ -79,6 +79,40 @@ body {
   border-radius: 3rem;
 }
 
+.footer {
+  background-color: var(--orange);
+  padding: 5rem 2rem;
+}
+
+.footer article {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.footer article p {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: var(--beach);
+}
+
+.footer article li {
+  list-style: none;
+}
+
+.footer article li a {
+  color: var(--orange);
+  background-color: var(--beach);
+  font-size: 1.6rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 1.3rem 3.7rem;
+  border-radius: 3rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
 footer {
   background-color: var(--beach);
   color: var(--brown);
