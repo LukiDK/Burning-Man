@@ -17,6 +17,17 @@ body {
 .contact .text {
   display: flex;
   flex-direction: column;
+  color: var(--beach);
+}
+
+.contact .text h1 {
+  font-size: 7.8rem;
+  margin-bottom: 2rem;
+}
+
+.contact .text p {
+  font-size: 2rem;
+  margin-bottom: 4rem;
 }
 
 .contact .btns {
