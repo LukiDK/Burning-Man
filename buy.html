@@ -18,12 +18,12 @@
     <nav>
       <ul>
         <li>
-          <a href="#"><img src="/assets/img/logo.svg" alt="" /></a>
+          <a href="index.html"><img src="/assets/img/logo.svg" alt="" /></a>
         </li>
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="#">Køb billet</a></li>
-        <li><a href="#">Kontakt</a></li>
-        <li><a href="#">Galleri</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+        <li><a href="gallery.html">Galleri</a></li>
       </ul>
     </nav>
     <main>
@@ -31,7 +31,8 @@
       <form>
         <section class="ticket-item">
           <div class="description">
-            <h3>Burning man 2024</h3><br />
+            <h3>Burning man 2024</h3>
+            <br />
             <p>25. august - 2. september</p>
           </div>
           <span class="price">2000.-</span>
@@ -43,7 +44,8 @@
         </section>
         <section class="ticket-item">
           <div class="description">
-            <h3>Madkort</h3><br />
+            <h3>Madkort</h3>
+            <br />
             <p>Kan indløses til et måltid dagligt</p>
           </div>
           <span class="price">1000.-</span>
@@ -55,7 +57,8 @@
         </section>
         <section class="ticket-item">
           <div class="description">
-            <h3>Opstillet telt</h3><br />
+            <h3>Opstillet telt</h3>
+            <br />
             <p>Telt der er opsat og klar til brug</p>
           </div>
           <span class="price">1000.-</span>
@@ -70,16 +73,16 @@
           <span class="total-amount">0.-</span>
         </div>
         <div class="form-group">
-          <input type="text" placeholder="Fulde navn" required />
-          <input type="email" placeholder="Email" required />
-          <input type="tel" placeholder="Telefonnummer" required />
-          <input type="text" placeholder="Adresse" required />
-          <input type="text" placeholder="Postnummer" required />
-          <input type="text" placeholder="By" required />
-          <input type="text" placeholder="Land" required />
-          <input type="text" placeholder="Kortnummer" required />
-          <input type="text" placeholder="MM/ÅÅ" required />
-          <input type="text" placeholder="CVC" required />
+          <input name="name" type="text" placeholder="Fulde navn" required />
+          <input name="email" type="email" placeholder="Email" required />
+          <input name="phone" type="tel" placeholder="Telefonnummer" required />
+          <input name="address" type="text" placeholder="Adresse" required />
+          <input name="zipcode" type="text" placeholder="Postnummer" required />
+          <input name="city" type="text" placeholder="By" required />
+          <input name="country" type="text" placeholder="Land" required />
+          <input name="cardnr" type="text" placeholder="Kortnummer" required />
+          <input name="carddate" type="text" placeholder="MM/ÅÅ" required />
+          <input name="cvc" type="text" placeholder="CVC" required />
         </div>
         <button type="submit">KØB NU!</button>
       </form>
