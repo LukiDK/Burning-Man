@@ -2,7 +2,7 @@
 @import url(/assets/css/styles.css);
 
 body {
-  background-color: var(--beach);
+  background-color: var(--brown);
 }
 
 main {
@@ -19,54 +19,21 @@ form {
   text-align: center;
 }
 
-.ticket-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 15px;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
+main .text {
+  max-width: 990px;
 }
 
-.ticket-item .description {
-  flex: 1;
+main .text h2 {
+  font-size: 78px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--beach);
 }
 
-.ticket-item .description p {
-  color: #666;
-}
-
-.ticket-item .price {
-  margin-right: 20px;
-}
-
-.quantity {
-  display: flex;
-  align-items: center;
-}
-
-.quantity button {
-  width: 30px;
-  height: 30px;
-  border: none;
-  background-color: #ccc;
-  cursor: pointer;
-}
-
-.quantity input {
-  width: 50px;
-  text-align: center;
-  border: 1px solid #ccc;
-  margin: 0 5px;
-}
-
-.total {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: bold;
-  margin-top: 20px;
-  font-size: 1.2em;
+main .text p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: var(--beach);
 }
 
 .form-group {
@@ -81,7 +48,7 @@ form {
   padding: 10px;
   border: none;
   margin-bottom: 10px;
-  background-color: var(--brown-light);
+  background-color: var(--beach);
 }
 
 .form-group input[name="name"] {
@@ -127,9 +94,8 @@ form {
 button[type="submit"] {
   padding: 13px 50px;
   border: none;
-  background-color: #795548;
-  background-color: var(--brown);
-  color: var(--beach);
+  background-color: var(--beach);
+  color: var(--brown);
   font-size: 40px;
   margin-top: 20px;
   border-radius: 55px;

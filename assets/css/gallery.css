@@ -2,7 +2,7 @@
 @import url(/assets/css/styles.css);
 
 .gallery {
-  background-color: var(--brown);
+  background-color: var(--brown-light);
   padding: 5rem 2rem;
 }
 
